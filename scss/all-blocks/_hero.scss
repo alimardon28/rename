@@ -1,0 +1,387 @@
+.hero{
+    padding-top: 153px;
+    background-image: url("../images/Bitmap18bg.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 650px;
+
+   &__simple{
+      padding: 0;
+   }
+
+   &__heading{
+           margin: 0;
+           max-width: 500px;
+           min-height: 112px;
+           font-weight: bold;
+           font-size: 56px;
+           line-height: 56px;
+           letter-spacing: -2.5px;
+           color: #fff
+   }
+
+   &__desc{
+       display: flex;
+       position: relative;
+       margin-top: 40px;
+       max-width: 405px;
+       min-height: 100px;
+       margin-left:57px;
+       font-size: 15px;
+       line-height: 25px;
+       color: #fff;
+   }
+
+   &__desc::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-image: url(../images/Path1.svg);
+    width: 202px;
+    min-height: 15px;
+    left: -257px;
+    top: 43px;
+}
+
+    &__desc::after{
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(../images/Group8after.svg);
+        width:447px;
+        min-height: 138px;
+        left: 505px;
+        top: 37px;
+     }
+     .btnn{
+        margin-top: 40px;
+        margin-left: 63px;
+     }
+   .btnn:hover{
+       background-color: transparent;
+       color: #ccc;
+   }
+}
+
+@media only screen and (max-width: 1432px){
+    .hero{
+        background-size: cover;
+        &__desc::before{
+            width: 180px;
+            left: -235px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1375px){
+    .hero{
+        &__desc::before{
+            width: 170px;
+            left: -205px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1342px){
+    .hero{
+        &__desc::before{
+            width: 150px;
+            left: -185px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1310px){
+    .hero{
+
+        &__desc::before{
+            width: 130px;
+            left: -165px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1290px){
+    .hero{
+
+        &__desc::before{
+            width: 120px;
+            left: -155px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1256px){
+    .hero{
+
+        &__desc::before{
+            width: 110px;
+            left: -145px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1237px){
+    .hero{
+         max-width: 1420px;
+        &__desc::before{
+            width: 100px;
+            left: -135px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1051px){
+    .hero{
+         max-width: 1400px;
+        &__desc::before{
+            width: 90px;
+            left: -125px;
+
+        }
+
+        &__desc::after{
+            top:40px;
+            left: 490px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1016px){
+    .hero{
+         max-width: 1380px;
+        &__desc::before{
+            width: 80px;
+            left: -115px;
+
+        }
+
+        &__desc::after{
+            top:50px;
+            left: 470px;
+        }
+    }
+}
+
+@media only screen and (max-width: 995px){
+    .hero{
+         max-width: 1360px;
+        &__desc::before{
+            width: 70px;
+            left: -105px;
+
+        }
+
+        &__desc::after{
+            top:60px;
+            left: 460px;
+        }
+    }
+}
+
+@media only screen and (max-width: 984px){
+    .hero{
+         max-width: 1360px;
+        &__desc::before{
+            width: 70px;
+            left: -105px;
+
+        }
+
+        &__desc::after{
+            top:60px;
+            left: 450px;
+        }
+    }
+}
+
+@media only screen and (max-width: 976px){
+    .hero{
+         max-width: 1340px;
+        &__desc::before{
+            width: 60px;
+            left: -95px;
+
+        }
+
+        &__desc::after{
+            top:70px;
+            left: 440px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 964px){
+    .hero{
+         max-width: 1320px;
+        &__desc::before{
+            width: 40px;
+            left: -80px;
+
+        }
+
+        &__desc::after{
+            top:80px;
+            left: 410px;
+        }
+    }
+}
+
+@media only screen and (max-width: 954px){
+    .hero{
+         max-width: 1300px;
+        &__desc::before{
+            width: 40px;
+            left: -80px;
+
+        }
+
+        &__desc::after{
+            top:90px;
+            left: 400px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 924px){
+    .hero{
+         max-width: 1300px;
+        &__desc::before{
+            width: 20px;
+            left: -80px;
+
+        }
+
+        &__desc::after{
+            top:100px;
+            left: 390px;
+        }
+    }
+}
+
+@media only screen and (max-width: 918px){
+    .hero{
+         max-width: 1290px;
+        &__desc::before{
+            width: 20px;
+            left: -80px;
+
+        }
+
+        &__desc::after{
+            top:160px;
+            left: 150px;
+        }
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .hero{
+        background-image: url(../images/Bitmap19mobil.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 768px;
+        min-height: 689px;
+
+
+        &__simple{
+          padding: 0;
+          margin: 0;
+          text-align:center;
+        }
+
+        &__heading{
+            max-width: 573px;
+            margin-left: 78px;
+        }
+
+        &__desc{
+            max-width: 573px;
+            margin-top: 24px;
+            margin-left: 78px;
+            padding: 0;
+        }
+
+        &__desc::before{
+            display: none;
+
+        }
+
+        &__desc::after{
+            top:227px;
+            left: -224px;
+        }
+
+        .btnn{
+            margin: 0;
+            margin-top: 32px;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 715px){
+    .hero{
+        min-height:743px;
+        &__heading{
+            margin: 0;
+            max-width: 100%;
+        }
+
+        &__desc{
+            max-width: 100%;
+            margin-top: 24px;
+            margin-left: 0;
+        }
+
+        &__desc::after{
+            top:227px;
+            left: -244px;
+        }
+    }
+}
+
+@media only screen and (max-width: 481px){
+    .hero{
+        &__desc::after{
+            top:227px;
+            left: -264px;
+        }
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .hero{
+        background-image: url("../images/Bitmap5mobil.png");
+        background-position:center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__desc::after{
+            top:227px;
+            left: -306px;
+        }
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .hero{
+        min-height: 790px;
+        &__desc::after{
+            top:227px;
+            left: -334px;
+        }
+    }
+}

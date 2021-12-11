@@ -1,0 +1,257 @@
+// Header stillar
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 22px 0px;
+    background-color: #FFFFFF;
+
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__hamburger {
+      display: none;
+      background-color: transparent;
+      font-size:35px;
+      width: 20px;
+      height: 16px;
+      border: none;
+      color: #333A44;
+    }
+  }
+
+  .logo {
+    text-decoration: none;
+    flex-shrink: 0;
+    margin-right: 60px;
+
+    &__img {
+      display: block;
+      border-radius: 50%;
+    }
+  }
+
+  .sitenav {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    &__list {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      margin-right: 551px;
+    }
+
+    &__item + &__item{
+      margin-left:32px;
+    }
+    &__link {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        text-decoration: none;
+    }
+
+    &__link:hover{
+        color:#ccc;
+    }
+
+    &__link:active{
+      color:#000;
+    }
+
+    .btnn{
+        margin-left: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1138px){
+    .sitenav{
+        &__list{
+            margin-right: 510px;
+        }
+    }
+
+  }
+
+  @media only screen and (max-width: 1117px){
+    .sitenav{
+        &__list{
+            margin-right: 480px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 1090px){
+    .sitenav{
+        &__list{
+            margin-right: 450px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 1065px){
+    .sitenav{
+        &__list{
+            margin-right: 420px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 1039px){
+    .sitenav{
+        &__list{
+            margin-right: 400px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 1016px){
+    .sitenav{
+        &__list{
+            margin-right: 390px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 1006px){
+    .sitenav{
+        &__list{
+            margin-right: 380px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 995px){
+    .sitenav{
+        &__list{
+            margin-right: 370px;
+        }
+    }
+  }
+  @media only screen and (max-width: 988px){
+    .sitenav{
+        &__list{
+            margin-right: 360px;
+        }
+    }
+  }
+
+
+  @media only screen and (max-width: 976px){
+    .sitenav{
+        &__list{
+            margin-right: 340px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 954px){
+    .sitenav{
+        &__list{
+            margin-right: 300px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 914px){
+    .sitenav{
+        &__list{
+            margin-right: 230px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 874px){
+    .sitenav{
+        &__list{
+            margin-right: 210px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 834px){
+    .sitenav{
+        &__list{
+            margin-right: 190px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 805px){
+    .sitenav{
+        &__list{
+            margin-right: 150px;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .sitenav{
+        &__list{
+            margin-right: 115px;
+        }
+    }
+  }
+
+
+  @media only screen and (max-width: 734px){
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 18px 0;
+      margin: 0;
+
+      &__hamburger {
+        display: inline-block;
+      }
+    }
+
+    .sitenav {
+      padding: 64px 32px;
+      display: none;
+      flex-direction: column;
+    }
+
+    .sitenav__item{
+      margin-top: 30px;
+      font-size: 20px;
+    }
+
+    .sitenav__link{
+        color: #E5ECF4;
+        justify-content: center;
+    }
+
+    .header--open .sitenav {
+      display: flex;
+      min-height: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color:#333A44;
+      min-height: 80vh;
+    }
+
+    .btn{
+         margin-top: 280px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 24px;
+    }
+
+    .header--open .sitenav__list {
+      flex-direction: column;
+    }
+  }
