@@ -737,4 +737,150 @@ img {
     height: 229px;
   }
 }
+
+.services {
+  padding-top: 80px;
+}
+
+.services__list {
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.services__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__item:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.services__item {
+  margin-top: 80px;
+}
+
+.services__img {
+  margin-left: 10px;
+}
+
+.services__imgg {
+  margin-right: 10px;
+}
+
+.services__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.services__paragraph {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 900;
+}
+
+.services__desc {
+  margin-top: 18px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.services__img {
+  max-width: 570px;
+  min-height: 400px;
+}
+
+@media only screen and (max-width: 981px) {
+  .services__paragraph {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+  .services__img {
+    max-width: 530px;
+    min-height: 530px;
+  }
+  .services__imgg {
+    max-width: 530px;
+    min-height: 530px;
+  }
+}
+
+@media only screen and (max-width: 857px) {
+  .services__img {
+    max-width: 500px;
+    min-height: 530px;
+  }
+  .services__imgg {
+    max-width: 500px;
+    min-height: 530px;
+  }
+}
+
+@media only screen and (max-width: 826px) {
+  .services__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services__top {
+    margin: 0;
+    padding: 0;
+  }
+  .services__img {
+    margin-top: 20px;
+    max-width: 100%;
+    min-height: 400px;
+  }
+  .services__imgg {
+    margin-top: 20px;
+    max-width: 100%;
+    min-height: 400px;
+  }
+  .services__paragraph {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .services__desc {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 352px) {
+  .services__heading {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .services__img {
+    max-width: 100%;
+    min-height: 350px;
+  }
+  .services__imgg {
+    max-width: 100%;
+    min-height: 350px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

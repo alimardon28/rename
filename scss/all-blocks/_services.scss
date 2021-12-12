@@ -1,0 +1,153 @@
+.services{
+    padding-top: 80px;
+    &__list{
+        margin-top:50px;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item:nth-child(even){
+        flex-direction: row-reverse;
+    }
+
+    &__item{
+        margin-top: 80px;
+    }
+
+    &__img{
+        margin-left: 10px;
+    }
+
+    &__imgg{
+        margin-right: 10px;
+    }
+
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    &__paragraph{
+        margin-top: 20px;
+        padding: 0;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 900;
+    }
+
+    &__desc{
+        margin-top: 18px;
+        padding: 0;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    &__img{
+        max-width: 570px;
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 981px){
+    .services{
+        &__paragraph{
+            font-size: 25px;
+            line-height: 25px;
+            font-weight: 600;
+        }
+
+        &__img{
+            max-width: 530px;
+            min-height: 530px;
+        }
+
+        &__imgg{
+            max-width: 530px;
+            min-height: 530px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 857px){
+    .services{
+
+        &__img{
+            max-width: 500px;
+            min-height: 530px;
+        }
+
+        &__imgg{
+            max-width: 500px;
+            min-height: 530px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 826px){
+    .services{
+        &__item{
+            flex-direction: column;
+        }
+
+        &__top{
+            margin: 0;
+            padding: 0;
+        }
+        &__img{
+            margin-top: 20px;
+            max-width: 100%;
+            min-height: 400px;
+        }
+
+        &__imgg{
+            margin-top: 20px;
+            max-width: 100%;
+            min-height: 400px;
+        }
+
+        &__paragraph{
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        &__desc{
+            text-align: center;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 352px){
+    .services{
+        &__heading{
+            font-size: 45px;
+            line-height: 45px;
+            font-weight: 700;
+        }
+
+        &__img{
+            max-width: 100%;
+            min-height: 350px;
+        }
+
+        &__imgg{
+            max-width: 100%;
+            min-height: 350px;
+        }
+    }
+}
