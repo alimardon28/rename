@@ -1,0 +1,88 @@
+.aside{
+    padding: 0;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__hero{
+        margin-right: 10px;
+    }
+
+    &__heading{
+        margin-top:20px;
+        padding: 0;
+        line-height: 40px;
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    &__desc{
+        margin-top: 18px;
+        margin-bottom: 40px;
+        padding: 0;
+        line-height: 16px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__link{
+        padding: 0;
+        font-size: 30px;
+        font-weight: 600;
+        color: dodgerblue;
+        border: 2px solid transparent;
+    }
+
+    &__link:hover{
+        opacity: 0.6;
+        border: 2px solid rgb(0, 0, 250);
+    }
+
+    &__link:active{
+        color: rgb(0, 0, 250);
+    }
+}
+
+@media only screen and (max-width: 976px){
+    .aside{
+        &__heading{
+            line-height: 35px;
+            font-size: 35px;
+            font-weight: 500;
+        }
+
+        &__desc{
+            line-height: 14px;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        &__img{
+            max-width:480px;
+            min-height:400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 734px){
+    .aside{
+        &__container{
+            flex-direction: column;
+        }
+
+        &__hero{
+            text-align: center;
+        }
+
+        &__heading{
+            margin-top: 10px;
+        }
+        &__img{
+            margin-top: 20px;
+            max-width:100%;
+        }
+    }
+}
