@@ -657,4 +657,84 @@ img {
     max-width: 100%;
   }
 }
+
+.information {
+  padding-top: 60px;
+}
+
+.information__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.information__desc {
+  margin-top: 18px;
+  padding: 0;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.information__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.information__item {
+  margin-top: 30px;
+}
+
+.information__link:hover {
+  opacity: 0.6;
+}
+
+.information__img:active {
+  border: 2px solid #000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.information__img {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 571px) {
+  .information__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .information__heading {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+  .information__desc {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .information__item {
+    margin-top: 50px;
+  }
+  .information__img {
+    width: 329px;
+    height: 277px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
