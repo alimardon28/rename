@@ -140,6 +140,10 @@ img {
   list-style: none;
 }
 
+.sitenav__item {
+  margin-left: 20px;
+}
+
 .sitenav__link {
   font-weight: bold;
   font-size: 15px;
@@ -208,7 +212,7 @@ img {
     top: 100%;
     left: 0;
     background-color: #333A44;
-    min-height: 83vh;
+    min-height: 86vh;
   }
   .header--open .sitenav__list {
     -webkit-box-orient: vertical;
