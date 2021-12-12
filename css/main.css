@@ -217,6 +217,11 @@ img {
   }
 }
 
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
 .hero {
   padding-top: 153px;
   background-image: url("../images/Bitmap18bg.jpg");
