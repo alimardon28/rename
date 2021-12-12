@@ -48,10 +48,6 @@
       list-style: none;
     }
 
-    &__item{
-      margin-left: 28px;
-    }
-
     &__link {
         font-weight: bold;
         font-size: 15px;
@@ -96,12 +92,13 @@
 
     .sitenav {
       padding: 64px 32px;
+      padding-right: 80px;
       display: none;
       flex-direction: column;
     }
 
     .sitenav__item{
-      margin-top: 30px;
+      margin-top: 14px;
       font-size: 20px;
     }
 
