@@ -166,7 +166,7 @@ img {
 }
 
 .sitenav__link:active {
-  color: #000;
+  color: #fff;
 }
 
 @media only screen and (max-width: 734px) {
